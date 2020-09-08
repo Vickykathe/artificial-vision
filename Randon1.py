@@ -29,6 +29,3 @@ print("The R number generated is :",r )
 print("::::::::::::::::::::::::::::::")
 number_list()
 
-
-
-#main
