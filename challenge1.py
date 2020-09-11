@@ -22,13 +22,13 @@ if op == '1':
     dice1 = randint(1,6)
     dice2 = randint(1,6)
     py1 = py1+dice1+dice2
-    print("Player 1, your score is: ",py1)
+    print("Player 1, your score is: ", py1)
     
     
     dice1 = randint(1,6)
     dice2 = randint(1,6)
     py2 = py2+dice1+dice2
-    print("Player 2, your score is: ",py2)    
+    print("Player 2, your score is: ", py2)    
     time.sleep(1)
 
     if py1>=50 and py2>=50:
@@ -82,7 +82,7 @@ elif op == '3':
     dice1 = randint(1,6)
     dice2 = randint(1,6)
     py2 = py2+dice1+dice2
-    print("Player 2, your score is: ",py2)    
+    print("Player 2, your score is: ", py2)    
     time.sleep(1)
 
     if py1>=100 and py2>=100:
@@ -91,7 +91,7 @@ elif op == '3':
       break
     elif py1>=100:
       time.sleep(2)
-      print("Player1, You won!!\nYou reach: ",py1," points")
+      print("Player1, You won!!\nYou reach: ", py1 ," points")
       break
     elif py2>=100:
       time.sleep(2)
