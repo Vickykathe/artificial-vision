@@ -33,7 +33,7 @@ if op == '1':
 
     if py1>=50 and py2>=50:
       time.sleep(2)
-      print("both reached the goal, It's a draw!!")
+      print(" It's a draw!!")
       break
     elif py1>=50:
       time.sleep(2)
@@ -60,7 +60,7 @@ elif op == '2':
 
     if py1>=70 and py2>=70:
       time.sleep(2)
-      print("both reached the goal, It's a draw!!")
+      print(" It's a draw!!")
       break
     elif py1>=70:
       time.sleep(2)
@@ -87,7 +87,7 @@ elif op == '3':
 
     if py1>=100 and py2>=100:
       time.sleep(2)
-      print("both reached the goal, It's a draw!!")
+      print(" It's a draw!!")
       break
     elif py1>=100:
       time.sleep(2)
