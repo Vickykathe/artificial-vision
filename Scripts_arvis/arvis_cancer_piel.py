@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 
 # :::::: OUR IMAGES ::::::
 
-img2 = cv2.imread('images/A.jpg')
-img1 = cv2.imread('images/B.jpg')
+img1 = cv2.imread('images/A.jpg')
+img2 = cv2.imread('images/B.jpg')
 
 
 # 1.Visualizar las imágenes de entrada en Escala de Grises.
@@ -36,9 +36,9 @@ pxX = np.size(img1, axis=1) #W
 pxY = np.size(img1, axis=0) #H
 pxXY = np.size(img1, axis=None)
 # Obtener el valor mínimo de cada imagen2.
-pxX = np.size(img1, axis=1) #W
-pxY = np.size(img1, axis=0) #H
-pxXY = np.size(img1, axis=None)
+pxX = np.size(img2, axis=1) #W
+pxY = np.size(img2, axis=0) #H
+pxXY = np.size(img2, axis=None)
 #================================================
 #6.Obtenga el argumento maxímo de cada imagen
 maximoA = np.max(img1)
